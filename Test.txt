@@ -1,0 +1,158 @@
+1.Expalin java and javac?
+java is to run the program
+javac is a command which is to convert source code to byte code
+
+2.Explain JDK,JRE,JVM?
+JVM - Java Virtual Machine
+JVM is not physically exist 
+Components
+1.Verifies the code
+2.Interpreter the code
+3.Execute the code
+
+JRE : Java Runtime Environment
+JRE is a combination of JVM + set of libraties 
+JRE is physically exist
+JRE is provide runtime environment
+
+JDK : Java Development Kit
+JDK is combination of JRE & development kit like java documents
+JDK is physically exist
+
+3.List the limitations of array?
+1.It is having fixed size
+2.When declaring array in that time we give size of the compulsory.
+
+
+4.Explain class,object and signature of the class
+Class : class is a template or blueprint or design which contains states and behaviour
+States is variable
+Ex: Class Pen{
+    String penName;
+     int price;
+    }
+Behaviour is method
+Ex: Class Pen - toWrite()
+
+Object : Object is a instance of a class.
+instance is a realtime
+instance means we can feel,touch,see
+
+Uses:
+We can create a multiple copies of the class
+
+* Instance variable can create a object
+
+Signature of class :
+ClassName referenceVariable = new ClassName();
+Ex: Pen pen = new Pen();
+
+
+5.Difference between .java file and .class file?
+.java file is to save the file 
+.class file is to run the program
+
+6.Explain method signature
+
+public static void methodName(parameter)
+
+Access modifiers like puublic, private, protected
+public : it is to access any class
+private is to access within the class
+protected means acess within the packages
+
+returntype - void means we cannot return any values
+
+7.What is Java?
+Java is high level object oriented programming language
+
+8.List the java IDE's
+1.IntelliJ IDEA community edition
+2.eclipse
+3.notepad++
+
+9.What is variable? Expalin it's types?
+Variable is a used to stored the data in the memory
+
+types of variables 
+1.Local variable
+2.Static Variable
+3.Instance Variable
+
+1.Local variable : means we can declare and initialize the variable inside the method.
+* decalration and initialization is important
+Class Person{
+public static void main(String a[]){
+       String name = "XYZ";
+       int age = 29;
+       String gender = "Female";
+}
+ 
+2.Static Variable : means we can declare the variable outside the method.
+We can use static keyword to ceclare and initialize the variavle;
+Ex: Class Person{
+   static String  name;
+   static int age;
+}
+
+
+10.List 15 java keywords
+public, super, import,long, char,double,length,int,extends,boolean,foalt,long,short,byte
+
+12.What is data type and Expalin it's types
+
+Data type is a representative of variable in the memory.
+Types
+1. Primitive data type
+2. Non primitive datatype
+
+1.primitive datatype : 
+    primitive datatype are predefined datatypes. 8 primitive datatype are there in the java
+
+ Primitive datatypes are :
+int, double, boolean,char,long,short,foalt,byte
+
+2.Non primitive datatypes : they are user defined datatypes
+They start with uppercase
+Ex : Array, String,ClassName ...
+
+
+13.What is Dot operator?
+using dot operator we can invoke the method
+
+14.List of Java features?
+1.Object oriented programming languafe
+2.Secured
+3.Platform independent
+
+15.What is the base class of all the classes?
+ Object class
+
+
+16.Method overloading :
+method overloading means having a same name of class name but different in length and parameters
+
+Ex :
+Class Addition{
+
+  int a;
+  int b;
+  int c;
+
+public void addition(int a, int b){
+   returns a+b;
+}
+public void addition(int a, int b, int c){
+  Sysyem.out.println("Addition of three numbers");
+
+return a+b+c;
+}
+
+}
+
+
+
+
+
+
+
